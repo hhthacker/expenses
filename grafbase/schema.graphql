@@ -1,11 +1,5 @@
-type TodoList @model {
+type Expense @model {
   id: ID!
-  title: String!
-  todos: [Todo]
-}
-
-type Todo @model {
-  id: ID!
-  title: String!
-  complete: Boolean!
+  name: String
+  amount: Number
 }
