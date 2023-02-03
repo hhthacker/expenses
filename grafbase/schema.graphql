@@ -1,4 +1,4 @@
 type Expense @model {
   id: ID!
-  amount: String
+  amount: Int!
 }
